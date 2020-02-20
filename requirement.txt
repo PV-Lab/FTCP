@@ -1,0 +1,10 @@
+tensorflow
+keras
+scikit-learn
+numpy
+matplotlib
+matminer==0.6.2
+pymatgen==2019.12.22
+joblib
+json
+itertools
