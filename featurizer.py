@@ -93,8 +93,7 @@ def  crystal_represent(df,num_ele=3,num_sites=20):
     
         ui, ux, uy = np.unique(crystal.atomic_numbers,return_index=True,return_inverse= True)
         z_sorted=np.array(crystal.atomic_numbers)
-        if len(z_sorted)>20:
-            continue
+
         z_u = z_sorted[np.sort(ux)]
      
         onehot = np.zeros((num_ele,len(E_v)))
