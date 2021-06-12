@@ -1,20 +1,64 @@
-## Fourier-Transformed Crystal Properties (FTCP)
+# Fourier-Transformed Crystal Properties (FTCP)
 
-FTCP is a python package for creating an invertible crystal representation and setting up generative VAE to inverse design new crystals based on material properties.
+This software package implements Fourier-Transformed Crystal Properties (FTCP) that is an invertible crystallographic representation, and its associative variational autoencoder (VAE) to inversely design new crystals based on material properties.
 
-## Table of Contents
-* [How to cite] (https://github.com/PV-Lab/FTCP#how-to-cite)
-* []
+The package provides ~~two~~ major functions:
+- Featurize crystals using FTCP representation
+- Encode crystals into a material-semantic latent space using VAE (co-trained with  regression models to achieve material-semantic)
+- Sample the material-semantic latent space according to design target(s) for new crystals 
 
+The following paper describes the details of the FTCP representation and framework:
+[Inverse design of crystals using generalized invertible crystallographic
+representation] (https://arxiv.org/pdf/2005.07609.pdf)
 
-## Installation
+# Table of Contents
+- [Fourier-Transformed Crystal Properties (FTCP)](#fourier-transformed-crystal-properties-ftcp)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Authors](#authors)
+
+<!-- # How to Cite
+
+Please cite the following work if you want to use FTCP.
+```
+@article{PhysRevLett.120.145301,
+  title = {Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties},
+  author = {Xie, Tian and Grossman, Jeffrey C.},
+  journal = {Phys. Rev. Lett.},
+  volume = {120},
+  issue = {14},
+  pages = {145301},
+  numpages = {6},
+  year = {2018},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.120.145301},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.120.145301}
+
+@article{Wang2021crabnet,
+ author = {Wang, Anthony Yu-Tung and Kauwe, Steven K. and Murdock, Ryan J. and Sparks, Taylor D.},
+ year = {2021},
+ title = {Compositionally restricted attention-based network for materials property predictions},
+ pages = {77},
+ volume = {7},
+ number = {1},
+ doi = {10.1038/s41524-021-00545-1},
+ publisher = {{Nature Publishing Group}},
+ shortjournal = {npj Comput. Mater.},
+ journal = {npj Computational Materials}
+}
+}
+``` -->
+
+# Installation
 
 To install, just clone the following repository:
 
 pip install -r requirement.txt
 
 
-## Usage
+# Usage
 
 run `CVAE.py` with given number of elements and nsites.  This generates the crystal representation in both real and momentum space and encodes such representation into VAE latent space.
 
@@ -27,6 +71,6 @@ The package contains the following module and scripts:
 | `ultils.py` | Script for auxiliary functions|
 | `requirements.txt`      | required packages    |
 
-## Authors
+# Authors
 
 The code was primarily written by Zekun Ren, with help from Siyu Isaac Parker Tian, under supervision of Prof. Tonio Buonassisi.
