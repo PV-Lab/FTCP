@@ -1,11 +1,15 @@
-## Description
+## Fourier-Transformed Crystal Properties (FTCP)
 
-CrystalVAE is a python package for creating an general crystal representation and setting up generative VAE to inverse design new crystals based on material properties.
+FTCP is a python package for creating an invertible crystal representation and setting up generative VAE to inverse design new crystals based on material properties.
+
+## Table of Contents
+* [How to cite] (https://github.com/PV-Lab/FTCP#how-to-cite)
+* []
+
 
 ## Installation
 
 To install, just clone the following repository:
-
 
 pip install -r requirement.txt
 
@@ -23,7 +27,6 @@ The package contains the following module and scripts:
 | `ultils.py` | Script for auxiliary functions|
 | `requirements.txt`      | required packages    |
 
-   
-
 ## Authors
 
+The code was primarily written by Zekun Ren, with help from Siyu Isaac Parker Tian, under supervision of Prof. Tonio Buonassisi.
