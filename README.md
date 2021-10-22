@@ -46,8 +46,8 @@ The package contains the following module and scripts:
 
 | Module | Description |
 | ------------- | ------------------------------ |
-| `main.py`      | Whole inverse design pipeline (Design Case 2 described in paper)|
-| `main_semi.py`      | Semi-supervised-learning inverse design pipeline for thermoelectric power factor (excited-state property) designs (Design Case 3 in paper)|
+| `main.py`      | Whole inverse design pipeline (Design `Case 2` in paper)|
+| `main_semi.py`      | Semi-supervised-learning inverse design pipeline for thermoelectric power factor (excited-state property) designs (Design `Case 3` in paper)|
 | `data.py`  | Data-related functions, including data retrieval from [Materials Project](https://materialsproject.org/), and FTCP representation|
 | `model.py`  | Model-related functions, including setting up the VAE + target-learning branch model|
 | `sampling.py`  | Sampling-related functions, including getting the chemical formulas, checking for compositional uniqueness, and outputting CIFs of designed crystals|
