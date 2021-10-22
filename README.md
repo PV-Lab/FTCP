@@ -1,6 +1,6 @@
 # Fourier-Transformed Crystal Properties (FTCP)
 
-This software package implements Fourier-Transformed Crystal Properties (FTCP) that is an invertible crystallographic representation, and its associative variational autoencoder (VAE) to inversely design new crystals based on material properties, spanning various chemical compositions and crystal structures (achieving **_general_** inverse design).
+This software package implements Fourier-Transformed Crystal Properties (`FTCP`) that is an invertible crystallographic representation, and its associative variational autoencoder (VAE) to inversely design new crystals based on material properties, spanning various chemical compositions and crystal structures (achieving **_general_** inverse design).
 
 The package provides three major functions:
 - Represent crystals using FTCP representation (in `data.py`)
