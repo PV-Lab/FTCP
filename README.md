@@ -1,11 +1,11 @@
 # Fourier-Transformed Crystal Properties (FTCP)
 
-This software package implements Fourier-Transformed Crystal Properties (FTCP) that is an invertible crystallographic representation, and its associative variational autoencoder (VAE) to inversely design new crystals based on material properties.
+This software package implements Fourier-Transformed Crystal Properties (FTCP) that is an invertible crystallographic representation, and its associative variational autoencoder (VAE) to inversely design new crystals based on material properties, spanning various chemical compositions and crystal structures (achieving **_general_** inverse design).
 
-The package provides ~~two~~ major functions:
-- Featurize crystals using FTCP representation
-- Encode crystals into a material-semantic latent space using VAE (co-trained with  regression models to achieve material-semantic)
-- Sample the material-semantic latent space according to design target(s) for new crystals 
+The package provides three major functions:
+- Represent crystals using FTCP representation (in `data.py`)
+- Encode represented crystals into a property-structured latent space using VAE (co-trained with  a target-learning branch to achieve "property-structure") (in `model.py`)
+- Sample the material-semantic latent space according to design target(s) for new crystals (in `sampling.py`)
 
 The following paper describes the details of the FTCP representation and framework:
 [Inverse design of crystals using generalized invertible crystallographic
@@ -18,7 +18,7 @@ representation] (https://arxiv.org/pdf/2005.07609.pdf)
 - [Usage](#usage)
 - [Authors](#authors)
 
-<!-- # How to Cite
+# How to Cite
 
 Please cite the following work if you want to use FTCP.
 ```
@@ -49,13 +49,12 @@ Please cite the following work if you want to use FTCP.
  journal = {npj Computational Materials}
 }
 }
-``` -->
+```
 
 # Installation
 
-To install, just clone the following repository:
-
-pip install -r requirement.txt
+To install, clone the repository, navigate to the folder, and use:
+`pip install -r requirement.txt`
 
 
 # Usage
@@ -73,4 +72,4 @@ The package contains the following module and scripts:
 
 # Authors
 
-The code was primarily written by Zekun Ren, with help from Siyu Isaac Parker Tian, under supervision of Prof. Tonio Buonassisi.
+The code was primarily written by Zekun Ren, and Siyu Isaac Parker Tian, under supervision of Prof. Tonio Buonassisi.
