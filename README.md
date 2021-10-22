@@ -16,6 +16,7 @@ representation](https://arxiv.org/pdf/2005.07609.pdf)
 - [How to Cite](#how-to-cite)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Reproduce Publication Figures](#reproduce-publication-figures)
 - [Authors](#authors)
 
 # How to Cite
@@ -24,7 +25,7 @@ Please cite the following work if you want to use FTCP.
 ```
 @misc{ren2020inverse,
   title = {Inverse design of crystals using generalized invertible crystallographic representation},
-  author = {Ren, Zekun and Tian, Siyu Isaac Parker and Noh, Juhwan and Oviedo, Felipe and Xing, Guangzong and Li, Jiali and Liang, Qiaohao and Zhu, Ruiming and Aberle, Armin G. and Sun, Shijing and Wang, Xiaonan and Liu, Yi and Li, Qianxiao and Senthilnath, Jayavelu and Hippalgaonkar, Kedar and Jung, Yousung and Buonassisi, Tonio},
+  author = {Ren, Zekun and Tian, Siyu Isaac Parker and Noh, Juhwan and Oviedo, Felipe and Xing, Guangzong and Liang, Qiaohao and Zhu, Ruiming and Aberle, Armin G. and Sun, Shijing and Wang, Xiaonan and Liu, Yi and Li, Qianxiao and Jayavelu, Senthilnath and Hippalgaonkar, Kedar and Jung, Yousung and Buonassisi, Tonio},
   year = {2020},
   eprint={2005.07609v3},
   archivePrefix={arXiv},
@@ -53,6 +54,10 @@ The package contains the following module and scripts:
 | `sampling.py`  | Sampling-related functions, including getting the chemical formulas, checking for compositional uniqueness, and outputting CIFs of designed crystals|
 | `ultils.py` | Script for auxiliary functions|
 | `requirements.txt`| required packages|
+
+# Reproduce Publication Figures
+
+To be added once publication is up.
 
 # Authors
 
