@@ -1,76 +1,64 @@
 # Fourier-Transformed Crystal Properties (FTCP)
 
-This software package implements Fourier-Transformed Crystal Properties (FTCP) that is an invertible crystallographic representation, and its associative variational autoencoder (VAE) to inversely design new crystals based on material properties.
+This software package implements Fourier-Transformed Crystal Properties (`FTCP`) that is an invertible crystallographic representation, and its associative variational autoencoder (VAE) to inversely design new crystals based on material properties, spanning various chemical compositions and crystal structures (achieving **_general_** inverse design).
 
-The package provides ~~two~~ major functions:
-- Featurize crystals using FTCP representation
-- Encode crystals into a material-semantic latent space using VAE (co-trained with  regression models to achieve material-semantic)
-- Sample the material-semantic latent space according to design target(s) for new crystals 
+The package provides functions in three major aspects:
+- **FTCP Representation**: Represent crystals using FTCP representation (in `data.py`)
+- **VAE Model with Property-Structured Latent Space**: Encode represented crystals into a property-structured latent space using VAE,  with a target-learning branch to achieve "property-structure" (in `model.py`)
+- **Sampling (Inverse Design)**: Sample the material-semantic latent space according to design target(s) for new crystals (in `sampling.py`)
 
-The following paper describes the details of the FTCP representation and framework:
+The following paper describes the details of the FTCP representation and framework: 
 [Inverse design of crystals using generalized invertible crystallographic
-representation] (https://arxiv.org/pdf/2005.07609.pdf)
+representation](https://arxiv.org/pdf/2005.07609.pdf)
 
 # Table of Contents
 - [Fourier-Transformed Crystal Properties (FTCP)](#fourier-transformed-crystal-properties-ftcp)
-- [Table of Contents](#table-of-contents)
+- [How to Cite](#how-to-cite)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Reproduce Publication Figures](#reproduce-publication-figures)
 - [Authors](#authors)
 
-<!-- # How to Cite
+# How to Cite
 
 Please cite the following work if you want to use FTCP.
 ```
-@article{PhysRevLett.120.145301,
-  title = {Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties},
-  author = {Xie, Tian and Grossman, Jeffrey C.},
-  journal = {Phys. Rev. Lett.},
-  volume = {120},
-  issue = {14},
-  pages = {145301},
-  numpages = {6},
-  year = {2018},
-  month = {Apr},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevLett.120.145301},
-  url = {https://link.aps.org/doi/10.1103/PhysRevLett.120.145301}
-
-@article{Wang2021crabnet,
- author = {Wang, Anthony Yu-Tung and Kauwe, Steven K. and Murdock, Ryan J. and Sparks, Taylor D.},
- year = {2021},
- title = {Compositionally restricted attention-based network for materials property predictions},
- pages = {77},
- volume = {7},
- number = {1},
- doi = {10.1038/s41524-021-00545-1},
- publisher = {{Nature Publishing Group}},
- shortjournal = {npj Comput. Mater.},
- journal = {npj Computational Materials}
+@misc{ren2020inverse,
+  title = {Inverse design of crystals using generalized invertible crystallographic representation},
+  author = {Ren, Zekun and Tian, Siyu Isaac Parker and Noh, Juhwan and Oviedo, Felipe and Xing, Guangzong and Liang, Qiaohao and Zhu, Ruiming and Aberle, Armin G. and Sun, Shijing and Wang, Xiaonan and Liu, Yi and Li, Qianxiao and Jayavelu, Senthilnath and Hippalgaonkar, Kedar and Jung, Yousung and Buonassisi, Tonio},
+  year = {2020},
+  eprint={2005.07609v3},
+  archivePrefix={arXiv},
+  primaryClass={physics.comp-ph}
 }
-}
-``` -->
+```
 
 # Installation
 
-To install, just clone the following repository:
-
-pip install -r requirement.txt
+To install, clone the repository, navigate to the folder, and use
+`pip install -r requirement.txt`
 
 
 # Usage
 
-run `CVAE.py` with given number of elements and nsites.  This generates the crystal representation in both real and momentum space and encodes such representation into VAE latent space.
+Run `main.py` for ground-state properties, and run `main_semi.py` for thermoelectric power factor design. The two main scripts go through a typical FTCP inverse design pipeline, where (1) crystals are represented using FTCP representation, (2) a property-structured latent space is obtained by training the VAE + target-learning branch model, and (3) new crystals are designed by sampling the latent space with decoding, and postprocessing.
 
 The package contains the following module and scripts:
 
 | Module | Description |
 | ------------- | ------------------------------ |
-| `CVAE.py`      | Script for training the VAE with structured latent space according to material properties      |
-| `featurizer.py`  | Script for data mining 3D crystal structure from MP.org and featurize it into both real and momentum space representation|
+| `main.py`      | Whole inverse design pipeline (Design `Case 2` in paper)|
+| `main_semi.py`      | Semi-supervised-learning inverse design pipeline for thermoelectric power factor (excited-state property) designs (Design `Case 3` in paper)|
+| `data.py`  | Data-related functions, including data retrieval from [Materials Project](https://materialsproject.org/), and FTCP representation|
+| `model.py`  | Model-related functions, including setting up the VAE + target-learning branch model|
+| `sampling.py`  | Sampling-related functions, including getting the chemical formulas, checking for compositional uniqueness, and outputting CIFs of designed crystals|
 | `ultils.py` | Script for auxiliary functions|
-| `requirements.txt`      | required packages    |
+| `requirements.txt`| required packages|
+
+# Reproduce Publication Figures
+
+To be added once publication is up.
 
 # Authors
 
-The code was primarily written by Zekun Ren, with help from Siyu Isaac Parker Tian, under supervision of Prof. Tonio Buonassisi.
+The code was primarily written by Zekun Ren and Siyu Isaac Parker Tian, under supervision of Prof. Tonio Buonassisi.
