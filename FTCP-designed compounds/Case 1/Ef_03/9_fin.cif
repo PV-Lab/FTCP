@@ -1,0 +1,32 @@
+data_image0
+_cell_length_a       5.20695
+_cell_length_b       5.21074
+_cell_length_c       5.19591
+_cell_angle_alpha    89.879
+_cell_angle_beta     89.8679
+_cell_angle_gamma    89.9417
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ga1      1.0000 0.00261  0.02970  0.03150  Biso   1.000  Ga
+  Nb1      1.0000 0.48996  0.77764  0.03666  Biso   1.000  Nb
+  Nb2      1.0000 0.25410  0.03643  0.54357  Biso   1.000  Nb
+  Nb3      1.0000 0.99360  0.54423  0.78040  Biso   1.000  Nb
+  Nb4      1.0000 0.51431  0.27943  0.02638  Biso   1.000  Nb
+  Nb5      1.0000 0.74941  0.02105  0.51896  Biso   1.000  Nb
+  Nb6      1.0000 0.00959  0.51487  0.28243  Biso   1.000  Nb
+  Pt1      1.0000 0.50149  0.52877  0.53112  Biso   1.000  Pt

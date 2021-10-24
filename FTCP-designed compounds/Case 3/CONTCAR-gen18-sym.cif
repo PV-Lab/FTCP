@@ -1,0 +1,41 @@
+data_CONTCAR-gen18
+_audit_creation_date              2020-01-03
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    6.2799
+_cell_length_b                    7.3984
+_cell_length_c                    13.2521
+_cell_angle_alpha                 84.1281
+_cell_angle_beta                  93.2745
+_cell_angle_gamma                 88.4509
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Cs1    Cs    0.24786   0.25861   0.00028   0.01267  Uiso   1.00
+Cs2    Cs    0.14547   0.22811   0.47786   0.01267  Uiso   1.00
+Cs3    Cs    0.81615   0.65261   0.97292   0.01267  Uiso   1.00
+Cs4    Cs    0.84044   0.73717   0.49749   0.01267  Uiso   1.00
+Cs5    Cs    0.56152   0.29678   0.26587   0.01267  Uiso   1.00
+Cs6    Cs    0.43329   0.69048   0.71904   0.01267  Uiso   1.00
+Ge1    Ge    0.03665   0.60245   0.24929   0.01267  Uiso   1.00
+Ge2    Ge    0.02561   0.98083   0.21509   0.01267  Uiso   1.00
+Ge3    Ge    0.95850   0.00381   0.73992   0.01267  Uiso   1.00
+Ge4    Ge    0.94707   0.37570   0.73738   0.01267  Uiso   1.00
+Ge5    Ge    0.66759   0.20728   0.62977   0.01267  Uiso   1.00
+Ge6    Ge    0.70078   0.17222   0.84846   0.01267  Uiso   1.00
+Ge7    Ge    0.32290   0.79064   0.33723   0.01267  Uiso   1.00
+Ge8    Ge    0.29000   0.77294   0.12808   0.01267  Uiso   1.00
+Au1    Au    0.32479   0.18562   0.74372   0.01267  Uiso   1.00
+Au2    Au    0.66195   0.80215   0.22473   0.01267  Uiso   1.00
+Au3    Au    0.76943   0.07594   0.04623   0.01267  Uiso   1.00

@@ -1,0 +1,33 @@
+data_CONTCAR-gen10
+_audit_creation_date              2020-01-03
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    4.2304
+_cell_length_b                    4.1090
+_cell_length_c                    10.5168
+_cell_angle_alpha                 90.1033
+_cell_angle_beta                  79.1947
+_cell_angle_gamma                 88.4255
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+La1    La    0.13375   0.27089   0.08105   0.01267  Uiso   1.00
+La2    La    0.74550   0.76715   0.84738   0.01267  Uiso   1.00
+Zn1    Zn    0.30109   0.77717   0.52215   0.01267  Uiso   1.00
+Zn2    Zn    0.88126   0.34470   0.52098   0.01267  Uiso   1.00
+As1    As    0.84729   0.85636   0.38729   0.01267  Uiso   1.00
+As2    As    0.33915   0.25861   0.66632   0.01267  Uiso   1.00
+O1     O     0.20022   0.76844   0.94778   0.01267  Uiso   1.00
+O2     O     0.68590   0.26924   0.97543   0.01267  Uiso   1.00
+O3     O     0.03249   0.77076   0.21827   0.01267  Uiso   1.00

@@ -1,0 +1,46 @@
+data_CONTCAR-gen26
+_audit_creation_date              2020-01-03
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'I4MM'
+_symmetry_Int_Tables_number       107
+_symmetry_cell_setting            tetragonal
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,-y,z
+  -y,x,z
+  y,-x,z
+  x,-y,z
+  -x,y,z
+  -y,-x,z
+  y,x,z
+  x+1/2,y+1/2,z+1/2
+  -x+1/2,-y+1/2,z+1/2
+  -y+1/2,x+1/2,z+1/2
+  y+1/2,-x+1/2,z+1/2
+  x+1/2,-y+1/2,z+1/2
+  -x+1/2,y+1/2,z+1/2
+  -y+1/2,-x+1/2,z+1/2
+  y+1/2,x+1/2,z+1/2
+_cell_length_a                    5.2276
+_cell_length_b                    5.2276
+_cell_length_c                    19.6397
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Ba1    Ba    0.50000  -0.50000   0.16270   0.01267  Uiso   1.00
+Sb1    Sb    0.50000  -0.50000   0.35001   0.01267  Uiso   1.00
+O1     O     0.50000  -0.50000   0.02748   0.01267  Uiso   1.00
+Ba2    Ba   -0.00000  -0.00000   0.30971   0.01267  Uiso   1.00
+Sb2    Sb   -0.00000  -0.00000   0.13949   0.01267  Uiso   1.00
+O2     O    -0.00000  -0.00000   0.03320   0.01267  Uiso   1.00
+Ba3    Ba   -0.00000  -0.50000   0.49575   0.01267  Uiso   1.00

@@ -1,0 +1,49 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'image0                                '
+_cell_length_a                         6.379763
+_cell_length_b                         6.488993
+_cell_length_c                         9.424787
+_cell_angle_alpha                      106.392021
+_cell_angle_beta                       110.012497
+_cell_angle_gamma                      83.129173
+_cell_volume                           351.593814
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   Sr1        1.0     0.495479     0.004618     0.833464    Uiso  ? Sr
+   Sr2        1.0     0.975471     0.271957     0.878987    Uiso  ? Sr
+   Sr3        1.0     0.094147     0.804413     0.099776    Uiso  ? Sr
+   Sr4        1.0     0.606287     0.233340     0.244549    Uiso  ? Sr
+   In1        1.0     0.180295     0.350569     0.521972    Uiso  ? In
+   In2        1.0     0.545146     0.581118     0.006282    Uiso  ? In
+   In3        1.0     0.650169     0.595203     0.619292    Uiso  ? In
+   In4        1.0     0.991104     0.858901     0.548732    Uiso  ? In
+   O1         1.0     0.759401     0.623416     0.874229    Uiso  ? O
+   O2         1.0     0.729718     0.291072     0.028540    Uiso  ? O
+   O3         1.0     0.013655     0.093420     0.305926    Uiso  ? O
+   O4         1.0     0.156026     0.169310     0.672646    Uiso  ? O
+   O5         1.0     0.786235     0.918597     0.697299    Uiso  ? O
+   O6         1.0     0.304363     0.685004     0.628924    Uiso  ? O
+   O7         1.0     0.298997     0.463674     0.070055    Uiso  ? O
+   O8         1.0     0.408160     0.902329     0.040145    Uiso  ? O
+   O9         1.0     0.859485     0.531403     0.466015    Uiso  ? O
+   O10        1.0     0.492892     0.299076     0.482689    Uiso  ? O
+   O11        1.0     0.902960     0.905900     0.313801    Uiso  ? O

@@ -1,0 +1,33 @@
+data_image0
+_cell_length_a       4.46285
+_cell_length_b       4.45793
+_cell_length_c       5.77744
+_cell_angle_alpha    93.311
+_cell_angle_beta     69.5358
+_cell_angle_gamma    89.863
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Co1      1.0000 0.90821  0.66394  0.40863  Biso   1.000  Co
+  Co2      1.0000 0.53071  0.42289  0.79786  Biso   1.000  Co
+  Mn1      1.0000 0.30366  0.90051  0.61969  Biso   1.000  Mn
+  Mn2      1.0000 0.29140  0.14390  0.20497  Biso   1.000  Mn
+  Si1      1.0000 0.10040  0.37813  0.64563  Biso   1.000  Si
+  Si2      1.0000 0.50201  0.63366  0.21709  Biso   1.000  Si
+  Si3      1.0000 0.71797  0.18357  0.37179  Biso   1.000  Si
+  Si4      1.0000 0.71206  0.93412  0.80680  Biso   1.000  Si
+  Si5      1.0000 0.10024  0.73929  0.01087  Biso   1.000  Si

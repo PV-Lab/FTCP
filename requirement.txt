@@ -1,10 +1,10 @@
-tensorflow
-keras
+tensorflow == 1.15.5
+keras == 2.3.1
 scikit-learn
 numpy
 matplotlib
-matminer==0.6.2
-pymatgen==2019.12.22
+matminer == 0.6.2
+pymatgen == 2019.12.22
 joblib
 json
-itertools
+ase
