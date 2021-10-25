@@ -180,7 +180,7 @@ ind_sample = ind_constraint[ind_temp][:Nsamples]
 # Set number of purturbing instances around each compound
 Nperturb = 3
 # Set local purturbation (Lp) scale
-Lp_scale = 0.6
+Lp_scale = 0.9
 
 # Sample (Lp)
 samples = train_latent[ind_sample, :]
