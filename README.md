@@ -23,7 +23,7 @@ representation](https://arxiv.org/pdf/2005.07609.pdf)
 
 Please cite the following work if you want to use FTCP.
 ```
-@article{j.matt.2021.11.032,
+@article{REN2021,
   title = {An invertible crystallographic representation for general inverse design of inorganic crystals with targeted properties},
   author = {Ren, Zekun and Tian, Siyu Isaac Parker and Noh, Juhwan and Oviedo, Felipe and Xing, Guangzong and Liang, Qiaohao and Zhu, Ruiming and Aberle, Armin G. and Sun, Shijing and Wang, Xiaonan and Liu, Yi and Li, Qianxiao and Jayavelu, Senthilnath and Hippalgaonkar, Kedar and Jung, Yousung and Buonassisi, Tonio},
   journal = {Matter},
