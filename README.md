@@ -30,7 +30,7 @@ Please cite the following work if you want to use FTCP.
   year = {2021},
   issn = {2590-2385},
   doi = {https://doi.org/10.1016/j.matt.2021.11.032},
-  url = {https://www.sciencedirect.com/science/article/pii/S2590238521006251},
+  url = {https://www.cell.com/matter/fulltext/S2590-2385(21)00625-1},
 }
 ```
 
