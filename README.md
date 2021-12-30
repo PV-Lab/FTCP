@@ -25,7 +25,7 @@ Please cite the following work if you want to use FTCP.
 ```
 @article{REN2021,
   title = {An invertible crystallographic representation for general inverse design of inorganic crystals with targeted properties},
-  author = {Ren, Zekun and Tian, Siyu Isaac Parker and Noh, Juhwan and Oviedo, Felipe and Xing, Guangzong and Liang, Qiaohao and Zhu, Ruiming and Aberle, Armin G. and Sun, Shijing and Wang, Xiaonan and Liu, Yi and Li, Qianxiao and Jayavelu, Senthilnath and Hippalgaonkar, Kedar and Jung, Yousung and Buonassisi, Tonio},
+  author = {Ren, Zekun and Tian, Siyu Isaac Parker and Noh, Juhwan and Oviedo, Felipe and Xing, Guangzong and Li, Jiali and Liang, Qiaohao and Zhu, Ruiming and Aberle, Armin G. and Sun, Shijing and Wang, Xiaonan and Liu, Yi and Li, Qianxiao and Jayavelu, Senthilnath and Hippalgaonkar, Kedar and Jung, Yousung and Buonassisi, Tonio},
   journal = {Matter},
   year = {2021},
   issn = {2590-2385},
