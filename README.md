@@ -58,7 +58,7 @@ The package contains the following module and scripts:
 
 # Reproduce Publication Figures
 
-To be added once publication is up.
+Run `.py` files for respective figures.
 
 # Authors
 
