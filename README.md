@@ -58,7 +58,7 @@ The package contains the following module and scripts:
 
 # Reproduce Publication Figures
 
-Run `.py` files for respective figures.
+Run `.py` files for respective figures in [publication figures](https://github.com/PV-Lab/FTCP/tree/master/publication%20figures).
 
 # Authors
 
