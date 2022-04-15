@@ -10,4 +10,3 @@ joblib == 1.0.1
 seaborn
 ase
 tqdm
-json
