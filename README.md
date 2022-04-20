@@ -15,6 +15,7 @@ representation](https://arxiv.org/pdf/2005.07609.pdf)
 - [Fourier-Transformed Crystal Properties (FTCP)](#fourier-transformed-crystal-properties-ftcp)
 - [How to Cite](#how-to-cite)
 - [Installation](#installation)
+  - [Installation in Google Colab](#installation-in-google-colab) 
 - [Usage](#usage)
 - [Reproduce Publication Figures](#reproduce-publication-figures)
 - [Authors](#authors)
@@ -39,6 +40,15 @@ Please cite the following work if you want to use FTCP.
 To install, clone the repository, navigate to the folder, and use
 `pip install -r requirement.txt`
 
+## Installation in Google Colab
+
+Run the following code at the very beginning to install relevant packages. No need to run `!pip install -r requirement.txt` as some packages in the requirement.txt are native in Google Colab, and reinstalling may incur version conflicts.
+```python
+%tensorflow_version 1.x
+!pip install pymatgen==2019.12.22
+!pip install matminer==0.6.2
+!pip install ase
+```
 
 # Usage
 
