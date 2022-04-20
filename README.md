@@ -63,7 +63,7 @@ The package contains the following module and scripts:
 | `data.py`  | Data-related functions, including data retrieval from [Materials Project](https://materialsproject.org/), and FTCP representation|
 | `model.py`  | Model-related functions, including setting up the VAE + target-learning branch model|
 | `sampling.py`  | Sampling-related functions, including getting the chemical formulas, checking for compositional uniqueness, and outputting CIFs of designed crystals|
-| `ultils.py` | Script for auxiliary functions|
+| `utils.py` | Script for auxiliary functions|
 | `requirements.txt`| required packages|
 
 # Reproduce Publication Figures
