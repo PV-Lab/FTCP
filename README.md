@@ -8,8 +8,7 @@ The package provides functions in three major aspects:
 - **Sampling (Inverse Design)**: Sample the material-semantic latent space according to design target(s) for new crystals (in `sampling.py`)
 
 The following paper describes the details of the FTCP representation and framework: 
-[Inverse design of crystals using generalized invertible crystallographic
-representation](https://arxiv.org/pdf/2005.07609.pdf)
+_**An invertible crystallographic representation for general inverse design of inorganic crystals with targeted properties**_ at [Matter](https://www.cell.com/matter/pdf/S2590-2385(21)00625-1.pdf) and [arXv](https://arxiv.org/pdf/2005.07609.pdf)
 
 # Table of Contents
 - [Fourier-Transformed Crystal Properties (FTCP)](#fourier-transformed-crystal-properties-ftcp)
